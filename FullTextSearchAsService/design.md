@@ -32,6 +32,8 @@ The data model includes documents that are indexed for full-text search. Each do
 - SearchResult:
     - Score: The relevance score of the search result.
     - URL: The URL of the document matching the search query.
+- SearchQuery:
+    - Query: The full-text search query submitted by the user.
 
 ## 8. User Interface (UI) Design
 The service does not have a user interface. It is accessed programmatically through the FastAPI-based API endpoints.
