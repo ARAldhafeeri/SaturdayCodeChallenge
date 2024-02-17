@@ -1,11 +1,11 @@
 from pydantic import BaseModel
 
 
-class SearchRequest(BaseModel):
+class Document(BaseModel):
     # TODO: Add fields
     pass 
 
-class SearchResponse(BaseModel):
+class SearchResult(BaseModel):
     # TODO: Add fields
     pass
 

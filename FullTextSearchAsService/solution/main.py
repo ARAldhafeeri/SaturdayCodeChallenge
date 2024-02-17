@@ -17,7 +17,8 @@ schema = Schema(
  # TODO: Add schema fields
 )
 
-# TODO: add full-text index directory if not exists , create db index
+# TODO: add full-text index directory if not exists
+
 
 ix = create_in("index", schema)
 
