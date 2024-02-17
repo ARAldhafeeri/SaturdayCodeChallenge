@@ -1,14 +1,13 @@
-from pydantic import BaseModel
-
+from pydantic  import BaseModel
 
 class Document(BaseModel):
-    # TODO: Add fields
-    pass 
-
-class SearchResult(BaseModel):
-    # TODO: Add fields
-    pass
+    content: str
+    title: str
+    url: str
 
 class SearchQuery(BaseModel):
-    # TODO: Add fields
-    pass
+    query: str
+
+class SearchResults(BaseModel):
+    score: float
+    url: str
